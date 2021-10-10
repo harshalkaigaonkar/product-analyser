@@ -16,7 +16,7 @@ function App() {
     };
     const res = await axios.post('http://localhost:3001/api/product', payload);
     if(res.data) {
-      setData(res);
+      setData(res.data);
     } else {
       setError('Something gone wrong, Please try again.')
     }
