@@ -1,8 +1,8 @@
 {
-  "name": "product-analyser",
+  "name": "know-your-product",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/harshalkaigaonkar/product-analyser.git",
+  "repository": "https://github.com/harshalkaigaonkar/know-your-product.git",
   "author": "harshalkaigaonkar <harshalkaigaonkar31@gmail.com>",
   "license": "MIT",
   "scripts": {

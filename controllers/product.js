@@ -6,14 +6,14 @@ module.exports.getProducts = async (req, res) => {
 
     try {
         // scrapeAndProcessData returns an array of data
-    const data = await scrapeAndProcessData(key);
+        const data = await scrapeAndProcessData(key);
 
-    // if required, can store data in a DB
+        // if required, can store data in a DB
 
-    res.status(200).send(data);
+        res.status(200).send(data);
     } catch (error) {
         console.error(error.message);
-
+        res.status(500).json({ "message": "Something Gone Wrong !!" })
     }
 
 }
